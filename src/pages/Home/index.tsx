@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const InitialComponent = (): JSX.Element => {
-    return (
-        <h1>Home page</h1>
-    )
-}
+  return <h1>Home page</h1>;
+};
 
 export default InitialComponent;
