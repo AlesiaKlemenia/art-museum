@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
 
-import InitialComponent from "@/pages/Home";
+import router from "@/routes/routes";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -9,6 +10,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <InitialComponent />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 );
